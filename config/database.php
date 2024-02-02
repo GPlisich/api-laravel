@@ -46,9 +46,9 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '192.168.242.3'),
+            'host' => env('DB_HOST', '192.168.242.2'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'tapiceriadb'),
+            'database' => env('DB_DATABASE', 'comedordb'),
             'username' => env('DB_USERNAME', 'traceuser'),
             'password' => env('DB_PASSWORD', 'tracepassword'),
             'unix_socket' => env('DB_SOCKET', ''),
